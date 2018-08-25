@@ -33,6 +33,12 @@
 - Move the non-presenter window to the screen for the audience to see
 - Control the presentation from your presenter window by using the left and right arrow keys and the audience non-presenter window will stay in sync
 
+## Suggestions
+
+- So no internet connection is required for network requests while presenting:
+  - Store everything in the project
+  - Use `npm run dev` mode
+
 ## Technology
 
 - Language: [Markdown](https://guides.github.com/features/mastering-markdown)
