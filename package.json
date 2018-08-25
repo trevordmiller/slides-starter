@@ -8,7 +8,9 @@
     "format": "prettier --write '**/*.{js,json,md}'",
     "verify": "npm run lint && npm run build",
     "lint": "eslint .",
-    "build": "npm run html && npm run pdf",
+    "build": "npm run clean && npm run static && npm run html && npm run pdf",
+    "clean": "rm -rf docs",
+    "static": "mkdir -p docs/static && cp -R src/static docs/",
     "html": "mdx-deck build src/index.mdx -d docs",
     "pdf": "mdx-deck pdf src/index.mdx -d docs",
     "release": "git checkout master && git pull && npm run verify && git add -A && git commit -m 'Release' && git push"
