@@ -22,7 +22,6 @@
 - `src/`: source code
   - `index.mdx`: entry point source code
   - `components/`: UI components
-    - `test.js` files can optionally be added for tests
   - `static/`: static assets like images, videos, audio etc.
 - `docs/`: static HTML output from `src/`
 - Other: tooling
@@ -42,7 +41,5 @@
 - UI: [React](https://reactjs.org)
 - Styling: [Styled Components](https://www.styled-components.com)
 - Linting: [ESLint](https://eslint.org)
-- Testing: [Jest](http://jestjs.io)
-- UI Testing: [Enzyme](http://airbnb.io/enzyme)
 - Formatting: [Prettier](https://prettier.io)
 - Colors: [Nova](https://trevordmiller.com/projects/nova)
