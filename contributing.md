@@ -19,11 +19,12 @@
 
 ## Organization
 
-- `index.mdx`: entry point source code
-- `components/`: UI components
-  - `test.js` files can optionally be added for tests
-- `static/`: static assets like images, videos, audio etc.
-- `docs/`: static HTML output
+- `src/`: source code
+  - `index.mdx`: entry point source code
+  - `components/`: UI components
+    - `test.js` files can optionally be added for tests
+  - `static/`: static assets like images, videos, audio etc.
+- `docs/`: static HTML output from `src/`
 - Other: tooling
 
 ## Presenter mode
