@@ -2,14 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import { uiGroups } from "nova-colors";
 
-const StyledButton = styled.button`
+const StyledDiv = styled.div`
   background: ${uiGroups.userCurrentState};
 `;
 
 const SomeDemoComponent = () => (
   <section>
     <div>Some component output</div>
-    <StyledButton>Some node</StyledButton>
+    <StyledDiv>Some node</StyledDiv>
   </section>
 );
 
