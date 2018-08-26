@@ -22,6 +22,7 @@
 - `src/`: source code
   - `index.mdx`: entry point source code
   - `components/`: UI components
+  - `utils/`: utility modules
   - `static/`: static assets like images, videos, audio etc.
 - `docs/`: static HTML and PDF output from `src/`
 - Other: tooling
