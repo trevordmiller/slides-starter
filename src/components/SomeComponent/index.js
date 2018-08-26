@@ -6,11 +6,11 @@ const StyledDiv = styled.div`
   background: ${uiGroups.userCurrentState};
 `;
 
-const SomeDemoComponent = () => (
+const SomeComponent = () => (
   <section>
     <div>Some component output</div>
     <StyledDiv>Some node</StyledDiv>
   </section>
 );
 
-export default SomeDemoComponent;
+export default SomeComponent;
