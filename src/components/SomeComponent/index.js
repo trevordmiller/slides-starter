@@ -1,15 +1,19 @@
 import React from "react";
 import styled from "styled-components";
-import { uiGroups } from "nova-colors";
+import colorValues from "nova-colors";
 
-const StyledDiv = styled.div`
-  background: ${uiGroups.userCurrentState};
+const GreenBackground = styled.div`
+  background: ${colorValues.colors.green};
+`;
+
+const BlueBackground = styled.div`
+  background: ${colorValues.colors.blue};
 `;
 
 const SomeComponent = () => (
   <section>
-    <div>Some component output</div>
-    <StyledDiv>Some node</StyledDiv>
+    <GreenBackground>Some component output</GreenBackground>
+    <BlueBackground>Some component output</BlueBackground>
   </section>
 );
 
