@@ -32,7 +32,7 @@
 - Open two windows in the same browser with the same URL
 - Type `Option` + `P` (`Alt` + `P`) key to enter presenter mode in your window
 - Move the non-presenter window to the screen for the audience to see
-- Control the presentation from your presenter window by using the left and right arrow keys and the audience non-presenter window will stay in sync
+- Control the presentation from your presenter window by using the arrow keys and the audience non-presenter window will stay in sync
 - If you need to jump to a section, type `Option` + `O` (`Alt` + `O`) key to enter overview mode
 
 ## Suggestions
