@@ -1,8 +1,8 @@
 import theme from "mdx-deck/themes";
 import colorValues, { uiGroups, syntaxGroups } from "nova-colors";
-import okaidia from "react-syntax-highlighter/styles/prism/okaidia";
 import prismJavaScript from "react-syntax-highlighter/languages/prism/javascript";
 import prismJsx from "react-syntax-highlighter/languages/prism/jsx";
+import prismTheme from "./utils/prismTheme";
 
 const customTheme = {
   ...theme,
@@ -26,7 +26,7 @@ const customTheme = {
     link: colorValues.colors.blue
   },
   prism: {
-    style: okaidia,
+    style: prismTheme,
     languages: {
       javascript: prismJavaScript,
       jsx: prismJsx
