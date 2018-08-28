@@ -12,6 +12,8 @@
 - Create a feature branch off of `master`
 - Run `npm install` to install dependencies
 - Run `npm run dev` and open `http://localhost:8080` to develop the slides and present offline locally
+- Control the presentation from your presenter window by using the arrow keys and the audience non-presenter window will stay in sync
+- Type `Option` + `O` (`Alt` + `O`) key to enter overview mode
 - Commit your changes
   - `npm run precommit` runs automatically to ensure things are working as expected related to your changed files
 - Submit a pull request to `master`
@@ -29,17 +31,22 @@
 
 ## Presenting
 
-- Open two windows in the same browser with the same URL
+- Run `npm run dev`
+- Open two windows in the same browser both to `http://localhost:8080`
 - Type `Option` + `P` (`Alt` + `P`) key to enter presenter mode in your window
 - Move the non-presenter window to the screen for the audience to see
-- Control the presentation from your presenter window by using the arrow keys and the audience non-presenter window will stay in sync
-- If you need to jump to a section, type `Option` + `O` (`Alt` + `O`) key to enter overview mode
+- Fullscreen the audience window
+- Turn on `Do Not Disturb`
+- Start a timer
+- Start a screen recording with audio
 
-## Suggestions
+## Tips
 
-- So no internet connection is required for network requests while presenting:
-  - Store everything in the project
-  - Use `npm run dev` mode
+- Keep everything stored in the project so it works offline for bad connections
+- Keep everything explicitly in slides so all you have to do is use arrow keys when presenting
+  - For showing other websites you can use `iframe`
+  - For simple demos, you can render components directly in the slides
+  - For complete demos, you can use a terminal recorder like `asciinema` and/or a video recording
 
 ## Technology
 
