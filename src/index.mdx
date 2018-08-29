@@ -24,40 +24,36 @@ Some text, [a link](https://developer.mozilla.org), `code`, **bold**, _italic_
 
 ---
 
-import { Notes } from "mdx-deck"
-
-## Some heading
-
-<Notes>
-  Some notes (only visible in presenter mode)
-</Notes>
-
----
-
-import { Image } from "mdx-deck"
-
-<Image src="./static/some-asset.gif" />
-
----
-
 import SomeComponent from './components/SomeComponent'
 
 <SomeComponent />
 
 ---
 
-import { CodeSurfer } from "mdx-deck-code-surfer"
+import CodeStepper from "./components/CodeStepper"
 
-<CodeSurfer
-  title="SomeComponent"
+<CodeStepper
   code={require("!raw-loader!./components/SomeComponent")}
-  notes="Some starting note"
   steps={[
     { range: [1, 3], notes: "Some step note 1" },
     { lines: [5, 10], notes: "Some step note 2" },
     { range: [15, 20], notes: "Some step note 3" },
     { lines: [22], notes: "Some step note 4" }
   ]}
-  showNumbers={false}
-  dark={true}
 />
+
+---
+
+import FullscreenImage from "./components/FullscreenImage"
+
+<FullscreenImage src="./static/some-asset.gif" />
+
+---
+
+import SpeakerNotes from "./components/SpeakerNotes"
+
+## Some heading
+
+<SpeakerNotes>
+  Some speaker notes (only visible in presenter mode)
+</SpeakerNotes>
