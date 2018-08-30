@@ -1,8 +1,8 @@
 import theme from "mdx-deck/themes";
 import colorValues, { uiGroups, syntaxGroups } from "nova-colors";
-import prismJavaScript from "react-syntax-highlighter/languages/prism/javascript";
-import prismJsx from "react-syntax-highlighter/languages/prism/jsx";
-import prismTheme from "./utils/prismTheme";
+import reactSyntaxHighlighterJavaScript from "react-syntax-highlighter/languages/prism/javascript";
+import reactSyntaxHighlighterJsx from "react-syntax-highlighter/languages/prism/jsx";
+import reactSyntaxHighlighterTheme from "./utils/reactSyntaxHighlighterTheme";
 
 const customTheme = {
   ...theme,
@@ -26,10 +26,10 @@ const customTheme = {
     link: colorValues.colors.blue
   },
   prism: {
-    style: prismTheme,
+    style: reactSyntaxHighlighterTheme,
     languages: {
-      javascript: prismJavaScript,
-      jsx: prismJsx
+      javascript: reactSyntaxHighlighterJavaScript,
+      jsx: reactSyntaxHighlighterJsx
     }
   }
 };

@@ -1,6 +1,6 @@
 import { uiGroups, syntaxGroups } from "nova-colors";
 
-const prismTheme = {
+const reactSyntaxHighlighterTheme = {
   'code[class*="language-"]': {
     color: uiGroups.foreground,
     direction: "ltr",
@@ -138,4 +138,4 @@ const prismTheme = {
   }
 };
 
-export default prismTheme;
+export default reactSyntaxHighlighterTheme;
