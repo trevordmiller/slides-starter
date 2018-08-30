@@ -4,7 +4,7 @@
 
 - Copy the contents of this `slides-starter` to your own repo
 - Replace `some-title`, `Some title`, and `Some description` with your presentation title/description
-- For GitHub Pages hosting from each `master` branch update, enable `master branch /docs folder` in your project's GitHub settings
+- For GitHub Pages hosting from each `master` branch update, remove `docs` from the `.gitignore` and enable `master branch /docs folder` in your project's GitHub settings
 
 ## Workflow
 
