@@ -1,0 +1,105 @@
+# Specify a command to be executed
+# like `/bin/bash -l`, `ls`, or any other commands
+# the default is bash for Linux
+# or powershell.exe for Windows
+command: null
+
+# Specify the current working directory path
+# the default is the current working directory path
+cwd: null
+
+# Export additional ENV variables
+env:
+  recording: true
+
+# Explicitly set the number of columns
+# or use `auto` to take the current
+# number of columns of your shell
+cols: auto
+
+# Explicitly set the number of rows
+# or use `auto` to take the current
+# number of rows of your shell
+rows: auto
+
+# Amount of times to repeat GIF
+# If value is -1, play once
+# If value is 0, loop indefinitely
+# If value is a positive number, loop n times
+repeat: -1
+
+# Quality
+# 1 - 100
+quality: 100
+
+# Delay between frames in ms
+# If the value is `auto` use the actual recording delays
+frameDelay: auto
+
+# Maximum delay between frames in ms
+# Ignored if the `frameDelay` isn't set to `auto`
+# Set to `auto` to prevent limiting the max idle time
+maxIdleTime: 2000
+
+# The surrounding frame box
+# The `type` can be null, window, floating, or solid`
+# To hide the title use the value null
+# Don't forget to add a backgroundColor style with a null as type
+frameBox:
+  type: null
+  title: null
+  style:
+    backgroundColor: black
+
+# Add a watermark image to the rendered gif
+# You need to specify an absolute path for
+# the image on your machine or a URL, and you can also
+# add your own CSS styles
+watermark:
+  imagePath: null
+  style:
+    position: absolute
+    right: 15px
+    bottom: 15px
+    width: 100px
+    opacity: 0.9
+
+# Cursor style can be one of
+# `block`, `underline`, or `bar`
+cursorStyle: block
+
+# Font family
+# You can use any font that is installed on your machine
+# in CSS-like syntax
+fontFamily: "Monospace"
+
+# The size of the font
+fontSize: 32
+
+# The height of lines
+lineHeight: 1
+
+# The spacing between letters
+letterSpacing: 0
+
+# Theme
+theme:
+  background: "transparent"
+  foreground: "#C5D4DD"
+  cursor: "#7FC1CA"
+  black: "#3C4C55"
+  red: "#DF8C8C"
+  green: "#A8CE93"
+  yellow: "#DADA93"
+  blue: "#83AFE5"
+  magenta: "#9A93E1"
+  cyan: "#7FC1CA"
+  white: "#C5D4DD"
+  brightBlack: "#899BA6"
+  brightRed: "#F2C38F"
+  brightGreen: "#A8CE93"
+  brightYellow: "#DADA93"
+  brightBlue: "#83AFE5"
+  brightMagenta: "#D18EC2"
+  brightCyan: "#7FC1CA"
+  brightWhite: "#E6EEF3"
