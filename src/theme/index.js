@@ -3,9 +3,11 @@ import colorValues, { uiGroups, syntaxGroups } from "nova-colors";
 import reactSyntaxHighlighterJavaScript from "react-syntax-highlighter/languages/prism/javascript";
 import reactSyntaxHighlighterJsx from "react-syntax-highlighter/languages/prism/jsx";
 import reactSyntaxHighlighterTheme from "./utils/reactSyntaxHighlighterTheme";
+import CustomProvider from "./components/CustomProvider";
 
 const customTheme = {
   ...theme,
+  Provider: CustomProvider,
   font: '"Helvetica Neue", "Helvetica", "Arial", sans-serif',
   monospace: "monospace",
   heading: {
