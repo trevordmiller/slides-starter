@@ -17,12 +17,12 @@ config:
   # Explicitly set the number of columns
   # or use `auto` to take the current
   # number of columns of your shell
-  cols: 100
+  cols: 280
 
   # Explicitly set the number of rows
   # or use `auto` to take the current
   # number of rows of your shell
-  rows: 30
+  rows: 72
 
   # Amount of times to repeat GIF
   # If value is -1, play once
@@ -51,8 +51,7 @@ config:
     type: null
     title: null
     style:
-      backgroundColor: "#3C4C55"
-      padding: 50px
+      backgroundColor: black
 
   # Add a watermark image to the rendered gif
   # You need to specify an absolute path for
@@ -74,10 +73,10 @@ config:
   # Font family
   # You can use any font that is installed on your machine
   # in CSS-like syntax
-  fontFamily: "Courier, Monospace"
+  fontFamily: "Monospace"
 
   # The size of the font
-  fontSize: 18
+  fontSize: 32
 
   # The height of lines
   lineHeight: 1
@@ -109,53 +108,7 @@ config:
 
 # Records, feel free to edit them
 records:
-  - delay: 1481
+  - delay: 893
     content: "\r\r\n\e[01;36mslides-starter\r\r\n\e[01;33m$\e[0m "
-  - delay: 495
-    content: "#"
-  - delay: 298
-    content: T
-  - delay: 503
-    content: " "
-  - delay: 396
-    content: "\b\e[K"
-  - delay: 156
-    content: h
-  - delay: 97
-    content: i
-  - delay: 70
-    content: s
-  - delay: 87
-    content: " "
-  - delay: 73
-    content: i
-  - delay: 88
-    content: s
-  - delay: 60
-    content: " "
-  - delay: 572
-    content: a
-  - delay: 116
-    content: " "
-  - delay: 171
-    content: r
-  - delay: 44
-    content: e
-  - delay: 168
-    content: c
-  - delay: 99
-    content: o
-  - delay: 70
-    content: r
-  - delay: 52
-    content: d
-  - delay: 75
-    content: i
-  - delay: 64
-    content: "n"
-  - delay: 75
-    content: g
-  - delay: 1794
-    content: "\r\n\r\r\n\e[01;36mslides-starter\r\r\n\e[01;33m$\e[0m "
-  - delay: 718
+  - delay: 185
     content: "logout\r\n"

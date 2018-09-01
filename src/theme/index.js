@@ -9,7 +9,7 @@ const customTheme = {
   ...theme,
   Provider: CustomProvider,
   font: '"Helvetica Neue", "Helvetica", "Arial", sans-serif',
-  monospace: '"Courier", monospace',
+  monospace: "monospace",
   heading: {
     fontWeight: 300
   },

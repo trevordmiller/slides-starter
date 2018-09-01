@@ -15,12 +15,12 @@ env:
 # Explicitly set the number of columns
 # or use `auto` to take the current
 # number of columns of your shell
-cols: 100
+cols: auto
 
 # Explicitly set the number of rows
 # or use `auto` to take the current
 # number of rows of your shell
-rows: 30
+rows: auto
 
 # Amount of times to repeat GIF
 # If value is -1, play once
@@ -49,8 +49,7 @@ frameBox:
   type: null
   title: null
   style:
-    backgroundColor: "#3C4C55"
-    padding: 50px
+    backgroundColor: black
 
 # Add a watermark image to the rendered gif
 # You need to specify an absolute path for
@@ -72,10 +71,10 @@ cursorStyle: block
 # Font family
 # You can use any font that is installed on your machine
 # in CSS-like syntax
-fontFamily: "Courier, Monospace"
+fontFamily: "Monospace"
 
 # The size of the font
-fontSize: 18
+fontSize: 32
 
 # The height of lines
 lineHeight: 1
