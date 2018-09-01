@@ -44,11 +44,13 @@
 ## Tips
 
 - Keep everything stored in the project so it works offline for bad connections
-- Keep everything explicitly in slides so all you have to do is use left/right arrow keys when presenting
-  - For content you can place everything in the slides and use speaker notes
-  - For code demos, you can render components directly in the slides
-  - For end-to-end demos, you can use a terminal recorder like `asciinema` and/or a video recording and embed it in a slide
-  - For showing other websites you can use `iframe` in a slide
+- Keep everything explicitly in the slides so all you have to do is use left/right arrow keys when presenting; for example:
+  - For code demos, you can render code directly in the slides
+  - For end-to-end demos, you can record a video of your screen and embed it in the slides
+  - For showing media like images, audio, and video, you can embed them in the slides using the built-in components or HTML5 elements
+  - For showing other websites you can embed them in the slides using `iframe`
+  - For personal notes, you can use speaker notes
+  - etc.
 
 ## Technology
 
