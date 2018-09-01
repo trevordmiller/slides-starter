@@ -47,19 +47,8 @@
 - Keep everything explicitly in slides so all you have to do is use left/right arrow keys when presenting
   - For content you can place everything in the slides and use speaker notes
   - For code demos, you can render components directly in the slides
-  - For end-to-end demos, you can record your terminal and/or record a screencast and embed it in a slide
-  - For showing websites you can use `iframe` in a slide
-
-## Terminal recording
-
-- Install Terminalizer with `npm install -g terminalizer`
-- Start the recording with where you want the recording file to be stored like `terminalizer record ./src/static/some-recording.yml --config terminalizerrc.yml`
-- Use your terminal like normal, take your time as the rendered output will have a max idle time and can be edited
-- Type `Ctrl` + `D` to stop the recording
-- You can edit the recording file if you made any typos etc.
-- Replay the recording file with `terminalizer play ./src/static/some-recording.yml`
-- Render the recording file to an animated gif with `terminalizer render ./src/static/some-recording.yml --output ./src/static/some-recording.gif`
-- Use the generated `.gif` with the `FullscreenImage` component like any other image file
+  - For end-to-end demos, you can use a terminal recorder like `asciinema` and/or a video recording and embed it in a slide
+  - For showing other websites you can use `iframe` in a slide
 
 ## Technology
 
