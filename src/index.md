@@ -28,13 +28,13 @@ import SomeComponent from './components/SomeComponent'
 import CodeStepper from "./components/CodeStepper"
 
 <CodeStepper
-  code={require("!raw-loader!./components/SomeComponent")}
-  steps={[
-    { range: [1, 3], notes: "Some step 1" },
-    { lines: [5, 10], notes: "Some step 2" },
-    { range: [15, 20], notes: "Some step 3" },
-    { lines: [22], notes: "Some step 4" }
-  ]}
+code={require("!raw-loader!./components/SomeComponent")}
+steps={[
+{ range: [1, 3], notes: "Some step 1" },
+{ lines: [5, 10], notes: "Some step 2" },
+{ range: [15, 20], notes: "Some step 3" },
+{ lines: [22], notes: "Some step 4" }
+]}
 />
 
 ---

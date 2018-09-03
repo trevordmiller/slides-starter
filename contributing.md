@@ -23,7 +23,7 @@
 ## Organization
 
 - `src/`: source code
-  - `index.mdx`: entry point source code
+  - `index.md`: entry point source code
   - `components/`: UI components
   - `utils/`: utility modules
   - `static/`: static assets like images, videos, audio etc.
