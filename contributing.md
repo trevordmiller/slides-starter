@@ -3,7 +3,7 @@
 ## Setup
 
 - Copy the contents of this `slides-starter` to your own repo
-- Replace `some-title`, `Some title`, and `Some description` with your presentation title/description
+- Replace each `some-title`, `Some title`, and `Some description` with your presentation title/description
 - For GitHub Pages hosting from each `master` branch update, remove `docs` from the `.gitignore` and enable `master branch /docs folder` in your project's GitHub settings
 
 ## Workflow
@@ -23,34 +23,32 @@
 ## Organization
 
 - `src/`: source code
-  - `index.md`: entry point source code
+  - `index.md`: entry point
   - `components/`: UI components
   - `utils/`: utility modules
   - `static/`: static assets like images, videos, audio etc.
-- `docs/`: static HTML and PDF output from `src/`
+- `docs/`: generated HTML and PDF output from `src/`
 - Other: tooling
 
 ## Presenting
 
-- Run `npm run dev`
-- Open two windows in the same browser both to `http://localhost:8080`
-- Type `Option` + `P` (`Alt` + `P`) key to enter presenter mode in your window
-- Move the non-presenter window to the screen for the audience to see
-- Fullscreen the audience window
+- Plug in your laptop to the projector
+- Disable display mirroring
 - Turn on `Do Not Disturb`
-- Start a timer
-- Start a screen recording with audio
+- Run `npm run dev`
+- Open two windows in the same browser, both to `http://localhost:8080`
+- Move one of the windows to the projector's display for the audience
+- On the projector's display for the audience
+  - Fullscreen the slides
+  - Start a fullscreen screen recording with audio
+- On your laptop's display for you
+  - Type `Option` + `P` (`Alt` + `P`) key to enter presenter mode
+  - Start the timer
 
 ## Tips
 
-- Keep everything stored in the project so it works offline for bad connections
-- Keep everything explicitly in the slides so all you have to do is use left/right arrow keys when presenting; for example:
-  - For code demos, you can render code directly in the slides
-  - For end-to-end demos, you can record a video of your screen and embed it in the slides
-  - For showing media like images, audio, and video, you can embed them in the slides using the built-in components or HTML5 elements
-  - For showing other websites you can embed them in the slides using `iframe`
-  - For personal notes, you can use speaker notes
-  - etc.
+- Keep everything explicitly in the slides so all you have to do is use left/right arrow keys when presenting
+- Keep everything stored locally in the project so it works offline for bad internet connections
 
 ## Technology
 
