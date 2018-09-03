@@ -11,7 +11,7 @@
     "build": "npm run clean && npm run static && npm run html && npm run pdf",
     "clean": "rm -rf docs",
     "static": "mkdir -p docs/static && cp -R src/static docs/",
-    "html": "mdx-deck build src/index.md -d docs",
+    "html": "mdx-deck build src/index.md -d docs --no-html",
     "pdf": "mdx-deck pdf src/index.md -d docs",
     "release": "git checkout master && git pull && npm run verify && git add -A && git commit -m 'Release' && git push"
   },
