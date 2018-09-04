@@ -47,6 +47,7 @@
 
 ## Tips
 
+- Use language tags like `javascript` with markdown code blocks so you get syntax highlighting and automatic formatting
 - Keep everything explicitly in the slides so all you have to do is use left/right arrow keys when presenting
 - Keep everything stored locally in the project so it works offline for bad internet connections
 
